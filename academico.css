@@ -1,16 +1,27 @@
 /* Estilo general */
+*{
+    
+}
 body {
   font-family: "Arial", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
+  background-color: #b9c0f3;
   color: #333333;
 }
 /* Estilo del contenedor principal */
+.proyectos {
+    max-width: 1150px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(57, 116, 226, 0.5);
+  }
 .container {
   max-width: 800px;
   margin: 0 auto;
-  background-color: #edeef5;
+  background-color: #ffffff;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(57, 116, 226, 0.5);
@@ -73,7 +84,7 @@ td {
 }
 
 th {
-  background-color: #2c3e50;
+  background-color: #E2061A;
   color: white;
 }
 
